@@ -1,0 +1,129 @@
+.modalContainer .stakeBalance,
+.modalContainer .unstakeAvailable,
+.modalContainer .claimableDate {
+  text-decoration: underline;
+}
+
+.modalContainer .unstakeAmountContainer,
+.modalContainer .stakeAmountContainer,
+.modalContainer .claimableDate {
+  margin: 24px 0 24px 0;
+}
+
+.modalContainer .handleStakeButton,
+.modalContainer .handleUnstakeButton {
+  width: 300px;
+  border-radius: 0px;
+}
+
+.modalContainer .flexColumn {
+  border-radius: 0px;
+}
+
+.modalContainer .tabContainer {
+  text-align: center;
+}
+
+.modalContainer {
+  width: 800px;
+  margin-top: 24px;
+}
+
+.tabButtonContainer {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.tabButtonContainer .tabButton {
+  padding: 24px;
+  border: none;
+  background-color: transparent;
+}
+
+.tabButtonContainer .tabButton:hover {
+  background-color: transparent;
+}
+
+.activeTab {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.claimButton,
+.stakeButton {
+  margin: 16px auto 0 auto;
+  max-width: 300px;
+}
+
+.container {
+  margin-top: 32px;
+  width: 800px;
+}
+
+.container h2,
+.container h3 {
+  text-align: center;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  margin-top: 24px;
+}
+
+.flexColumn {
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  padding: 24px;
+  margin: 0 16px;
+  text-align: center;
+}
+
+.container .history {
+  text-align: left;
+  margin: 32px 16px 16px 16px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  min-height: 100vh;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .content {
+    padding: 4rem;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  /* .grid {
+    grid-template-columns: repeat(2, 50%);
+  } */
+}
+
+@media (prefers-color-scheme: dark) {
+  .vercelLogo {
+    filter: invert(1);
+  }
+
+  .logo {
+    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
